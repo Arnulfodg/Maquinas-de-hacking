@@ -158,15 +158,6 @@ while getopts "m:ui:y:d:o:h" arg; do
 	m) machineName="$OPTARG"; let parameter_counter+=1;;
 	u) let parameter_counter+=2;;
 	i) ipAdd="$OPTARG"; let parameter_counter+=3;;
-
-
-
-
-
-
-
-
-
 	y) machineName="$OPTARG"; let parameter_counter+=4;;
 	d) dificultad="$OPTARG"; espia_dif=1; let parameter_counter+=5;;
 	o) os="$OPTARG"; espia_os=1; let parameter_counter+=6;;
